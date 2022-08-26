@@ -1,18 +1,8 @@
-## Getting Started
+## Project Info
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A side-scrolling, dodging and shooting game made with a four-person group back in 2020 for our final project. Lasting all semester long, we decided on making a quirky arcade game similar to the [Helicopter game](https://www.crazygames.com/game/helicopter). Using a simple Flappy Bird JavaFX app tutorial to create a basic template, we put together a fun game full of custom game mechanics, sprites, animations, and later adding music and sound effects to top it all off.
 
-## Folder Structure
+## Running the project executable (flying-tank-simulator.jar)
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. Navigate to the project directory (flying-tank-simulator) using the command line.
+2. Execute the following command: java -jar --module-path lib/javafx-sdk-18/lib --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base,javafx.media,javafx.swing,javafx.web flying-tank-simulator.jar
