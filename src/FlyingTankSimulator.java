@@ -240,7 +240,7 @@ public class FlyingTankSimulator extends Application {
 		if (t % 1000 == 0 && !player.dead) {
 			enemySpeed += 1;
 			if (score > 100) {
-				playMusic.setRate(playMusic.getRate() + 0.1);
+				playMusic.setRate(playMusic.getRate() + 0.11);
 			}
 		}
 
